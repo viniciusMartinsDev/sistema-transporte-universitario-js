@@ -5,6 +5,13 @@ const logo = require('../../assets/logo.png')
 import styles from './styles'
 const RegisterScreen = ({ navigation }) => {
 	const [showApp, setShowApp] = useState(true)
+	const [nome, setNome] = useState('')
+	const [sobrenome, setSobrenome] = useState('')
+	const [rg, setRg] = useState('')
+	const [cpf, setCpf] = useState('')
+	const [email, setEmail] = useState('')
+	const [senha, setSenha] = useState('')
+	const [senhaRepetida, setSenhaRepetida] = useState('')
 	return (
 		<View style={styles.container}>
 			<StatusBar barStyle='dark-content' />
@@ -17,45 +24,54 @@ const RegisterScreen = ({ navigation }) => {
 				<View style={styles.sectionDataInputs}>
 					<TextInput
 						style={styles.input}
-						value=""
+						value={nome}
 						placeholder="Primeiro Nome"
 						placeholderTextColor="#a0a0a0"
+						onChangeText={nome => setNome(nome)}
 					/>
 					<TextInput
 						style={styles.input}
-						value=""
+						value={sobrenome}
 						placeholder="Último nome"
 						placeholderTextColor="#a0a0a0"
+						onChangeText={sobrenome => setSobrenome(sobrenome)}
 					/>
 					<TextInput
 						style={styles.input}
-						value=""
+						value={rg}
 						placeholder="RG"
 						placeholderTextColor="#a0a0a0"
+						onChangeText={rg => setRg(rg)}
 					/>
 					<TextInput
 						style={styles.input}
-						value=""
+						value={cpf}
 						placeholder="CPF"
 						placeholderTextColor="#a0a0a0"
+						onChangeText={cpf => setCpf(cpf)}
 					/>
 					<TextInput
 						style={styles.input}
-						value=""
+						value={email}
 						placeholder="exemplo@exemplo.com"
 						placeholderTextColor="#a0a0a0"
+						onChangeText={email => setEmail(email)}
 					/>
 					<TextInput
 						style={styles.input}
-						value=""
+						value={senha}
 						placeholder="Senha"
+						secureTextEntry={true}
 						placeholderTextColor="#a0a0a0"
+						onChangeText={senha => setSenha(senha)}
 					/>
 					<TextInput
 						style={styles.input}
-						value=""
+						value={senhaRepetida}
+						secureTextEntry={true}
 						placeholder="Repita a senha "
 						placeholderTextColor="#a0a0a0"
+						onChangeText={senhaRepetida => setSenhaRepetida(senhaRepetida)}
 					/>
 
 				</View>

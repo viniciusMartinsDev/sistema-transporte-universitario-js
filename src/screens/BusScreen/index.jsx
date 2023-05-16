@@ -5,7 +5,7 @@ import styles from './styles'
 import AppMenu from "../../components/AppMenu";
 import BusComponent from "../../components/BusComponent";
 
-export default function BusScreen() {
+export default function BusScreen({ navigation }) {
 	return (
 		<View style={styles.container}>
 			<View style={styles.perfilDetails}>
@@ -20,7 +20,7 @@ export default function BusScreen() {
 				<BusComponent />
 				<BusComponent />
 			</View>
-			<AppMenu />
+			<AppMenu navigation={navigation} />
 		</View>
 	)
 }
