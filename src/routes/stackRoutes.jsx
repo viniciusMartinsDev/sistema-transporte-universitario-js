@@ -1,5 +1,4 @@
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-const { Screen, Navigator } = createNativeStackNavigator();
 
 import RegisterScreen from '../screens/RegisterScreen';
 import HomeScreen from '../screens/HomeScreen';
@@ -7,6 +6,8 @@ import BusScreen from '../screens/BusScreen'
 import CheckInScreen from '../screens/CheckInScreen'
 import SearchScreen from '../screens/SearchScreen'
 import ProfileScreen from '../screens/ProfileScreen'
+
+const { Screen, Navigator } = createNativeStackNavigator();
 
 export function StackRoutes() {
 	return (

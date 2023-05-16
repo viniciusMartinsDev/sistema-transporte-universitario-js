@@ -1,4 +1,5 @@
 import { StyleSheet } from 'react-native';
+
 const styles = StyleSheet.create({
 	container: {
 		flex: 1,
@@ -23,9 +24,7 @@ const styles = StyleSheet.create({
 		flex: 2,
 		width: '100%',
 		padding: 25,
-		// justifyContent: 'space-evenly',
 		alignItems: 'center',
-
 	},
 	sectionDataTextTitle: {
 		fontSize: 30,
@@ -55,7 +54,6 @@ const styles = StyleSheet.create({
 		flexDirection: 'row',
 		alignItems: 'center',
 		justifyContent: 'center',
-
 	},
 	input: {
 		height: 40,
@@ -68,8 +66,7 @@ const styles = StyleSheet.create({
 	sectionDataBtn: {
 		display: 'flex',
 		flexDirection: 'column',
-	}
-
+	},
 });
 
 export default styles

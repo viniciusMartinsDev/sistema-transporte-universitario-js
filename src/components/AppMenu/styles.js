@@ -1,4 +1,5 @@
 import { StyleSheet } from 'react-native';
+
 const styles = StyleSheet.create({
 	menu: {
 		display: 'flex',
@@ -8,6 +9,7 @@ const styles = StyleSheet.create({
 		width: '100%',
 		height: '10%',
 		backgroundColor: '#2C95E1'
-	}
-})
+	},
+});
+
 export default styles

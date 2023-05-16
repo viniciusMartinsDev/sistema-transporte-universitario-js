@@ -1,4 +1,5 @@
 import { StyleSheet } from 'react-native';
+
 const styles = StyleSheet.create({
 	container: {
 		flex: 1,
@@ -57,6 +58,6 @@ const styles = StyleSheet.create({
 		width: '100%',
 		height: '10%',
 		backgroundColor: '#2C95E1'
-	}
+	},
 })
 export default styles

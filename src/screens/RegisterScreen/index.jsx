@@ -1,9 +1,12 @@
 import React, { useState } from "react";
 import { View, Text, StatusBar, Image, TextInput, Button } from "react-native";
 import Icon from 'react-native-vector-icons/AntDesign';
-const logo = require('../../assets/logo.png')
 import styles from './styles'
+
+const logo = require('../../assets/logo.png')
+
 const RegisterScreen = ({ navigation }) => {
+	
 	const [showApp, setShowApp] = useState(true)
 	const [nome, setNome] = useState('')
 	const [sobrenome, setSobrenome] = useState('')
@@ -12,6 +15,7 @@ const RegisterScreen = ({ navigation }) => {
 	const [email, setEmail] = useState('')
 	const [senha, setSenha] = useState('')
 	const [senhaRepetida, setSenhaRepetida] = useState('')
+
 	return (
 		<View style={styles.container}>
 			<StatusBar barStyle='dark-content' />
@@ -107,6 +111,5 @@ const RegisterScreen = ({ navigation }) => {
 		</View>
 	)
 }
-
 
 export default RegisterScreen

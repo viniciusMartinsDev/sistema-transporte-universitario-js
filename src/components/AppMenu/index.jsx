@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Text, TextInput } from "react-native";
+import { View } from "react-native";
 import Icon from 'react-native-vector-icons/AntDesign';
 import styles from './styles'
 
@@ -30,7 +30,6 @@ export default function AppMenu({ navigation }) {
 				color='#E0E0E0'
 				onPress={() => navigation.navigate('Profile')}
 			/>
-
 		</View>
 	)
 }

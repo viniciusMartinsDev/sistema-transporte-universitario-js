@@ -1,8 +1,9 @@
 import React from "react";
 import { View, Text, StatusBar, Image, TextInput, Button } from "react-native";
 import BouncyCheckbox from "react-native-bouncy-checkbox";
-const logo = require('../../assets/logo.png')
 import styles from './styles'
+
+const logo = require('../../assets/logo.png')
 
 const HomeScreen = ({ navigation }) => {
 	return (
