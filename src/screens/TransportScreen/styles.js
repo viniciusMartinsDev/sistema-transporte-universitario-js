@@ -1,13 +1,13 @@
 import { StyleSheet } from 'react-native';
 const styles = StyleSheet.create({
-	menu: {
+	container: {
+		flex: 1,
 		display: 'flex',
-		flexDirection: 'row',
-		justifyContent: 'space-around',
+		backgroundColor: '#fff',
 		alignItems: 'center',
-		width: '100%',
-		height: '10%',
-		backgroundColor: '#2C95E1'
+		justifyContent: 'center',
 	}
-})
+
+});
+
 export default styles

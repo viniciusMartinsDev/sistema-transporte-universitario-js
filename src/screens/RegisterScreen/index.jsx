@@ -93,7 +93,7 @@ const RegisterScreen = ({ navigation }) => {
 						<Button
 							title="Finalizar"
 							color="#2C95E1"
-							onPress={showApp ? () => navigation.navigate('Home') : window.alert('Deu ruim')}
+							onPress={showApp ? () => navigation.navigate('Login') : window.alert('Deu ruim')}
 						/>
 						<Icon
 							name="check"
