@@ -1,10 +1,10 @@
 import React from "react";
-import { View, Text, TextInput } from "react-native";
-import Icon from 'react-native-vector-icons/AntDesign';
+import { View, Text, StatusBar, Image, TextInput, Button } from "react-native";
 import styles from './styles'
+import Icon from 'react-native-vector-icons/AntDesign';
 import BusComponent from "../../components/BusComponent";
 
-export default function BusScreen() {
+const HomeScreen = () => {
 	return (
 		<View style={styles.container}>
 			<View style={styles.perfilDetails}>
@@ -22,3 +22,4 @@ export default function BusScreen() {
 		</View>
 	)
 }
+export default HomeScreen

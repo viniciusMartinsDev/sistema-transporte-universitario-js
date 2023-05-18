@@ -1,4 +1,5 @@
 import { StyleSheet } from 'react-native';
+
 const styles = StyleSheet.create({
 	container: {
 		flex: 1,
@@ -28,7 +29,6 @@ const styles = StyleSheet.create({
 		flex: 4,
 		width: '100%',
 		alignItems: 'center',
-
 	},
 	sectionDataTextTitle: {
 		fontSize: 30,
@@ -63,8 +63,7 @@ const styles = StyleSheet.create({
 		justifyContent: 'center',
 		padding: 5,
 		borderRadius: 8
-	}
-
+	},
 });
 
 export default styles

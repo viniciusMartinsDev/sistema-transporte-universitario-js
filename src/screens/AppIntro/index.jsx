@@ -2,6 +2,7 @@ import React from "react";
 import { View, Text, Image, StatusBar } from "react-native";
 import styles from './styles'
 import Icon from 'react-native-vector-icons/AntDesign';
+
 const logo = require('../../assets/logo.png')
 
 export default function AppIntro({ childToParent }) {

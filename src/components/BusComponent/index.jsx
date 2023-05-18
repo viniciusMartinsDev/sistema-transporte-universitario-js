@@ -1,6 +1,7 @@
 import { View, Text, Image } from "react-native";
-const iconBus = require('../../assets/iconBus.png')
 import styles from './styles'
+
+const iconBus = require('../../assets/iconBus.png')
 
 export default function BusComponent() {
 	return (

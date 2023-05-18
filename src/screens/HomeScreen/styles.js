@@ -1,4 +1,5 @@
 import { StyleSheet } from 'react-native';
+
 const styles = StyleSheet.create({
 	container: {
 		flex: 1,
@@ -14,9 +15,10 @@ const styles = StyleSheet.create({
 		justifyContent: 'flex-start',
 		alignItems: 'center',
 		width: '100%',
-		height: '20%',
-		backgroundColor: '#F8F8F8',
-		padding: 20
+		padding: 25,
+		// justifyContent: 'space-evenly',
+		alignItems: 'center',
+
 	},
 	perfilDetailsText: {
 		fontSize: 30,
@@ -30,9 +32,7 @@ const styles = StyleSheet.create({
 		flexDirection: 'row',
 		alignItems: 'center',
 		justifyContent: 'center',
-		backgroundColor: '#F8F8F8',
-		width: '100%',
-		height: '5%'
+
 	},
 	sectionInputInput: {
 		height: 40,
@@ -44,19 +44,8 @@ const styles = StyleSheet.create({
 	main: {
 		display: 'flex',
 		flexDirection: 'column',
-		backgroundColor: '#F8F8F8',
-		width: '100%',
-		height: '65%',
-		paddingTop: 20
-	},
-	menu: {
-		display: 'flex',
-		flexDirection: 'row',
-		justifyContent: 'space-around',
-		alignItems: 'center',
-		width: '100%',
-		height: '10%',
-		backgroundColor: '#2C95E1'
 	}
-})
+
+});
+
 export default styles
