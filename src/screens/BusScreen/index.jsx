@@ -2,10 +2,9 @@ import React from "react";
 import { View, Text, TextInput } from "react-native";
 import Icon from 'react-native-vector-icons/AntDesign';
 import styles from './styles'
-import AppMenu from "../../components/AppMenu";
 import BusComponent from "../../components/BusComponent";
 
-export default function BusScreen({ navigation }) {
+export default function BusScreen() {
 	return (
 		<View style={styles.container}>
 			<View style={styles.perfilDetails}>
@@ -20,7 +19,6 @@ export default function BusScreen({ navigation }) {
 				<BusComponent />
 				<BusComponent />
 			</View>
-			<AppMenu navigation={navigation} />
 		</View>
 	)
 }
