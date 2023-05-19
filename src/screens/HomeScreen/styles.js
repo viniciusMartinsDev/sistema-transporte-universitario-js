@@ -15,23 +15,24 @@ const styles = StyleSheet.create({
 		justifyContent: 'flex-start',
 		alignItems: 'center',
 		width: '100%',
+		height: '20%',
 		padding: 25,
-		// justifyContent: 'space-evenly',
 		alignItems: 'center',
 
 	},
 	perfilDetailsText: {
 		fontSize: 30,
 		fontWeight: '400',
-		marginLeft: 10,
-
-
+		marginLeft: 20,
+		color: '#2C95E1'
 	},
 	sectionInput: {
 		display: 'flex',
 		flexDirection: 'row',
 		alignItems: 'center',
 		justifyContent: 'center',
+		width: '100%',
+		height: '10%',
 
 	},
 	sectionInputInput: {
@@ -44,7 +45,18 @@ const styles = StyleSheet.create({
 	main: {
 		display: 'flex',
 		flexDirection: 'column',
-	}
+		width: '100%',
+		height: '60%',
+		padding: 10,
+		// backgroundColor: '#f56'
+	},
+	shadowProp: {
+		shadowColor: '#26394D',
+		shadowOffset: { width: 0, height: 4, },
+		shadowOpacity: 0.32,
+		shadowRadius: 5.46,
+		elevation: 9
+	},
 
 });
 
