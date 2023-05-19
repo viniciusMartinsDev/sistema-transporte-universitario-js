@@ -9,8 +9,18 @@ const styles = StyleSheet.create({
 		justifyContent: 'space-around',
 		width: '100%',
 		padding: 10,
-		borderBottomWidth: 2
+		marginBottom: 5,
+		borderRadius: 8,
+
 	},
+	shadowProp: {
+		shadowColor: '#26394D',
+		shadowOffset: { width: 0, height: 4, },
+		shadowOpacity: 0.32,
+		shadowRadius: 5.46,
+		elevation: 9
+	},
+
 	text: {
 		display: 'flex',
 		flexDirection: 'column',
